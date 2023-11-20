@@ -36,10 +36,10 @@ You can change select to input just add class `.itemQuantity` to it, For Example
 <input type="number" class="itemQuantity"/>
 ```
 
-[Live Demo](https://cartsjss.r2hu1.repl.co/)
-[Code Demo](https://replit.com/@r2hu1/cartsjss#index.html)
-
 ## 4. **CSS Styling**:
 Style your HTML elements as needed. The script does not provide any styling, so you will need to add your own CSS to style the cart and the items.
 
 Remember to call the `cartJS` function after the DOM has fully loaded. You can ensure this by placing the `<script>` tags just before the closing `</body>` tag, or by calling the function in a `window.onload` or `$(document).ready()` event if you're using jQuery. 
+
+[Live Demo](https://cartsjss.r2hu1.repl.co/)
+[Code Demo](https://replit.com/@r2hu1/cartsjss#index.html)
