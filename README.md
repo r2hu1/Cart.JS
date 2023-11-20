@@ -2,7 +2,7 @@
 Include the JavaScript file containing the `cartJS` function in your HTML file. You can do this by adding a `<script>` tag in your HTML file that points to the JavaScript file. For example:
 
 ```html
-<script src="path_to_your_javascript_file.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/r2hu1/cart.JS@latest/src/cart.js"></script>
 ```
 
 ## 2. **Call the Function**:
@@ -36,6 +36,8 @@ You can change select to input just add class `.itemQuantity` to it, For Example
 <input type="number" class="itemQuantity"/>
 ```
 
+[Live Demo](https://cartsjss.r2hu1.repl.co/)
+[Code Demo](https://replit.com/@r2hu1/cartsjss#index.html)
 
 ## 4. **CSS Styling**:
 Style your HTML elements as needed. The script does not provide any styling, so you will need to add your own CSS to style the cart and the items.
