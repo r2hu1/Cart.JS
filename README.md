@@ -14,6 +14,28 @@ Call the `cartJS` function in your HTML file. You can do this by adding a `<scri
 
 ## 3. **HTML Structure**:
 Your HTML structure should have elements with the classes `.addToCart`, `.itemTitle`, `.itemDescription`, `.itemQuantity`, `.itemPrice`, `.itemImg`, and `.cartItem`. The script will add an event listener to each `.addToCart` element and when clicked, it will retrieve the details of the item and add it to the cart.
+For Example:
+
+```html
+<div class="item">
+    <img src="product_img.png" class="itemImg"/>
+    <h1 class="itemTitle">Product Title</h1>
+    <p class="itemDescription">Product Description</p>
+    <select class="itemQuantity">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+    <h2 class="itemPrice">Product Price</h2>
+    <button class="addToCart">Add To Cart (edit according to your need)</button>
+  </div>
+```
+
+You can use input also add class `.itemQuantity` to it, For Example:
+```html
+<input type="number" class="itemQuantity"/>
+```
+
 
 ## 4. **CSS Styling**:
 Style your HTML elements as needed. The script does not provide any styling, so you will need to add your own CSS to style the cart and the items.
