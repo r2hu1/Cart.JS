@@ -31,7 +31,7 @@ For Example:
   </div>
 ```
 
-You can use input also add class `.itemQuantity` to it, For Example:
+You can change select to input just add class `.itemQuantity` to it, For Example:
 ```html
 <input type="number" class="itemQuantity"/>
 ```
